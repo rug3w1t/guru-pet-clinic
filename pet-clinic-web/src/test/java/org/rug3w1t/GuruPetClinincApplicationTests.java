@@ -1,4 +1,4 @@
-package org.rug3w1t.gurupetclininc;
+package org.rug3w1t;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

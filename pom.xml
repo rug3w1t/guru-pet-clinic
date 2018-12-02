@@ -6,9 +6,13 @@
 	<groupId>org.rug3w1t</groupId>
 	<artifactId>guru-pet-clininc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>pet-clinic-data</module>
+		<module>pet-clinic-web</module>
+	</modules>
+    <packaging>pom</packaging>
 
-	<name>guru-pet-clininc</name>
+	<name>guru-pet-clinic</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -22,6 +26,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<start-class>org.rug3w1t.GuruPetClinincApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -40,15 +45,6 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 
 </project>

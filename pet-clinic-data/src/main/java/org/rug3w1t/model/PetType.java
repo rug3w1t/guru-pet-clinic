@@ -1,4 +1,4 @@
-package org.rug3w1t.gurupetclininc.model;
+package org.rug3w1t.model;
 
 public class PetType {
 

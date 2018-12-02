@@ -1,4 +1,4 @@
-package org.rug3w1t.gurupetclininc;
+package org.rug3w1t;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
